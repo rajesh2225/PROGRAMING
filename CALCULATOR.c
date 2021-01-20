@@ -5,8 +5,6 @@ int main()
 {
    int choice;
    long num1, num2, x;
-
-   //displaying different options
    cout << "Please choose your option:"
            "\n1 = Addition"
            "\n2 = Subtraction"
@@ -33,31 +31,23 @@ int main()
          x = num1 + num2;
          cout << "Sum = " << x;
          break;
-
-      //Subtraction
       case 2:
          cout << "Enter two numbers: \n";
          cin >> num1 >> num2;
          x = num1 - num2;
          cout << "Subtraction = " << x;
          break;
-
-      //Multiplication
       case 3:
          cout << "Enter two numbers: \n";
          cin >> num1 >> num2;
          x = num1 * num2;
          cout << "Product = " << x;
          break;
-
-      //Division
       case 4:
          cout << "Enter Dividend: ";
          cin >> num1;
          cout << "Enter Divisor: ";
          cin >> num2;
-
-         //while loop checks for divisor whether it is zero or not
          while(num2 == 0)
          {
             cout << "\nDivisor cannot be zero."
@@ -67,8 +57,6 @@ int main()
          x = num1 / num2;
          cout << "\nQuotient = " << x;
          break;
-
-      //Square
       case 5:
          cout << "Enter any number: \n";
          cin >> num1;
