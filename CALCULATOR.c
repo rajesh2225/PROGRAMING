@@ -17,7 +17,6 @@ int main()
            "\n\nChoice: ";
    cin >> choice;
 
-   //while loop check whether the choice is in the given range
    while(choice < 1 || choice > 6)
    {
       cout << "\nPlease choose the above mentioned option."
@@ -27,7 +26,7 @@ int main()
 
    switch (choice)
    {
-      //Addition
+
       case 1:
          cout << "Enter two numbers: \n";
          cin >> num1 >> num2;
